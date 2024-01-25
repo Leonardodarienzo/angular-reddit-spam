@@ -1,0 +1,11 @@
+<div>
+  <label for="num">num:</label>
+  <input name="num" #newnum> 
+</div>
+<div>
+  <label for="spamText">Spam:</label>
+  <input name="spamText" #newspamText> 
+</div>
+<button (click)="addArticle(newnum, newspamText)">
+Submit link
+</button>
